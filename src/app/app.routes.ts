@@ -1,11 +1,6 @@
 import { Routes } from '@angular/router';
+import { HomePage } from './pages/home-page/home-page';
 
 export const routes: Routes = [
-  {
-    path: '',
-    loadComponent: () =>
-      import('./topicana/pages/home.component/home.component').then(
-        (m) => m.HomeComponent
-      ),
-  },
+  {path: '', component:HomePage },
 ];

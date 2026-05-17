@@ -1,0 +1,31 @@
+<div class="sticky top-0 z-50 shadow-md transition-all duration-300" [style]="isScrolled() ? 'background-color: rgba(255, 255, 255,0.9); backdrop-filter: blur(1px);' : 'background-color: #FFFFFF;'">
+  <div class="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex items-center justify-between h-16">
+      <!-- Logo y nombre -->
+      <div class="flex items-center gap-3 rounded rounded-lg">
+        <a href="/" class="flex items-center gap-3 ">
+          <img src="TropicanaLogo.png" alt="Tropicana CEA Logo" class="h-auto w-45 rounded-1 rounded-lg border-1 border-transparent transition-colors duration-700" onmouseover="this.style.borderColor='#FFFFFF'" onmouseout="this.style.borderColor='transparent'">
+
+        </a>
+      </div>
+
+      <!-- Navegación central -->
+      <nav class="hidden md:flex flex-1 justify-center gap-5">
+        <a class="text-md font-bold transition-colors duration-700 text-red-500 hover:text-red-600 hover:text-sm" href="#" >Home</a>
+        <a class="text-md font-bold transition-colors duration-700 text-red-500 hover:text-red-600 hover:text-sm" href="#" >Nosotros</a>
+        <a class="text-md font-bold transition-colors duration-700 text-red-500 hover:text-red-600 hover:text-sm" href="#" >Cursos</a>
+        <a class="text-md font-bold transition-colors duration-700 text-red-500 hover:text-red-600 hover:text-sm" href="#" >Precios</a>
+        <a class="text-md font-bold transition-colors duration-700 text-red-500 hover:text-red-600 hover:text-sm" href="#" >Horarios</a>
+        <a class="text-md font-bold transition-colors duration-700 text-red-500 hover:text-red-600 hover:text-sm" href="#" >RUNT</a>
+      </nav>
+
+      <!-- Botón y perfil -->
+      <div class="flex items-center gap-6">
+        <button class="hidden sm:flex text-sm font-bold rounded-lg px-5 py-2 hover:opacity-90 hover:shadow-lg transition-all duration-300 bg-red-600 hover:bg-red-500 text-white">
+          Registrate
+        </button>
+        <div class="size-10 rounded-full bg-cover bg-center cursor-pointer transition-colors" style="border: 2px solid rgba(254, 254, 254, 0.3); background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDX0eAvEX8V8Gtg8TFnffSkVH__BdjI1PHsZXdJKXxAGNDWiIMbxe3f6nStNmgLZlan6nVILQFdtNI98OpJ2esfHvBuU5A36fGvt7q78CgZnDiLrkUTXVpegUWPu6yCY6B80rcsjYK1b0T-ul6crbwUoQfK7r_vs3HYPtGM04bRi9QN6DezrcFpTZ4BkMwhXlU3XQWks-2ySGmXVmlOW-380JPCdQi8sbDwW0vmfLI6CIRI7UMj_XkX0QN1l4-qL6zRtxBVrvVUxY0')" onmouseover="this.style.borderColor='#ED3237'" onmouseout="this.style.borderColor='rgba(254, 254, 254, 0.3)'"></div>
+      </div>
+    </div>
+  </div>
+</div>
